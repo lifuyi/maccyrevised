@@ -30,6 +30,8 @@ struct HistoryItemView: View {
 struct HistoryItemPoolView: View {
   @Bindable var item: HistoryItemDecorator
   let poolIndex: Int
+  let groupNumber: Int
+  let itemInGroupIndex: Int
 
   @Environment(AppState.self) private var appState
 
@@ -42,10 +44,10 @@ struct HistoryItemPoolView: View {
       attributedTitle: item.attributedTitle,
       shortcuts: item.shortcuts,
       isSelected: item.isSelected,
-      help: "History pool item #\(poolIndex + 11)"
+      help: "History pool group \(groupNumber + 1), item #\(itemInGroupIndex + 1)"
     ) {
       Text(verbatim: item.title)
-        .font(.system(size: 11, weight: .regular, design: .default))
+        .font(.system(size: 12, weight: .regular, design: .default))
     }
     .onTapGesture {
       appState.history.select(item)
@@ -56,12 +58,14 @@ struct HistoryItemPoolView: View {
     .padding(.leading, 12)
     .opacity(0.8)
     .overlay(alignment: .leading) {
-      if poolIndex < 9 {
-        Text("\(poolIndex + 11)")
-          .font(.system(size: 9, weight: .bold, design: .monospaced))
-          .foregroundColor(.secondary)
+      if itemInGroupIndex < 9 {
+        Text("\(itemInGroupIndex + 1)")
+          .font(.system(size: 9, weight: .medium, design: .monospaced))
+          .foregroundColor(.secondary.opacity(0.6))
           .padding(.leading, 2)
       }
     }
+    .scaleEffect(1.0)
+    .animation(.easeInOut(duration: 0.15), value: item.isSelected)
   }
 }

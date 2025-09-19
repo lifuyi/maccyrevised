@@ -11,6 +11,9 @@ struct HistoryListView: View {
 
   @Default(.pinTo) private var pinTo
   @Default(.previewDelay) private var previewDelay
+  
+  // State for tracking expanded pool groups - all collapsed by default
+  @State private var expandedGroups: Set<Int> = []
 
   private var pinnedItems: [HistoryItemDecorator] {
     appState.history.pinnedItems.filter(\.isVisible)
@@ -53,22 +56,9 @@ struct HistoryListView: View {
             HistoryItemView(item: item)
           }
           
-          // Add separator if there are pool items
+          // Process and display pool items in collapsible groups of 10
           if unpinnedItems.count > 10 {
-            Divider()
-              .padding(.horizontal, 10)
-              .padding(.vertical, 2)
-              .overlay(alignment: .trailing) {
-                Text("Pool")
-                  .font(.system(size: 9, weight: .medium, design: .default))
-                  .foregroundColor(.secondary)
-                  .padding(.trailing, 12)
-              }
-          }
-          
-          // Display pool items (11th and beyond) with pool view
-          ForEach(Array(unpinnedItems.dropFirst(10).enumerated()), id: \.element.id) { poolIndex, item in
-            HistoryItemPoolView(item: item, poolIndex: poolIndex)
+            PoolGroupsView(unpinnedItems: unpinnedItems, expandedGroups: $expandedGroups)
           }
         }
         .task(id: appState.scrollTarget) {
@@ -133,5 +123,97 @@ struct HistoryListView: View {
         }
       }
     }
+  }
+}
+
+struct PoolGroupsView: View {
+  let unpinnedItems: [HistoryItemDecorator]
+  @Binding var expandedGroups: Set<Int>
+  
+  var body: some View {
+    let poolItems = Array(unpinnedItems.dropFirst(10))
+    let groups = createGroups(from: poolItems)
+    
+    ForEach(Array(groups.enumerated()), id: \.offset) { groupIndex, group in
+      PoolGroupView(
+        group: group,
+        groupIndex: groupIndex,
+        isExpanded: expandedGroups.contains(groupIndex),
+        toggleExpansion: {
+          withAnimation(.easeInOut(duration: 0.2)) {
+            if expandedGroups.contains(groupIndex) {
+              expandedGroups.remove(groupIndex)
+            } else {
+              expandedGroups.insert(groupIndex)
+            }
+          }
+        }
+      )
+    }
+  }
+  
+  private func createGroups(from items: [HistoryItemDecorator]) -> [[HistoryItemDecorator]] {
+    stride(from: 0, to: items.count, by: 10).map { startIndex in
+      Array(items[startIndex..<min(startIndex + 10, items.count)])
+    }
+  }
+}
+
+struct PoolGroupView: View {
+  let group: [HistoryItemDecorator]
+  let groupIndex: Int
+  let isExpanded: Bool
+  let toggleExpansion: () -> Void
+  
+  var body: some View {
+    VStack(spacing: 0) {
+      // Expandable group header with enhanced styling
+      HStack {
+        Image(systemName: isExpanded ? "chevron.down" : "chevron.right")
+          .font(.system(size: 11))
+          .foregroundColor(isExpanded ? .accentColor : .secondary)
+          .animation(.easeInOut(duration: 0.2), value: isExpanded)
+        
+        Text("Pool Group \(groupIndex + 1)")
+          .font(.system(size: 11, weight: .medium, design: .default))
+          .foregroundColor(isExpanded ? .primary : .secondary)
+        
+        Spacer()
+        
+        Text("\(group.count) items")
+          .font(.system(size: 10))
+          .foregroundColor(.secondary.opacity(0.8))
+      }
+      .padding(.horizontal, 14)
+      .padding(.vertical, 8)
+      .background(isExpanded ? Color.accentColor.opacity(0.1) : Color.secondary.opacity(0.05))
+      .cornerRadius(6)
+      .padding(.horizontal, 6)
+      .onTapGesture(perform: toggleExpansion)
+      .scaleEffect(isExpanded ? 1.02 : 1.0)
+      .animation(.easeInOut(duration: 0.1), value: isExpanded)
+      
+      // Items in this group (only show if expanded) with dynamic sizing
+      if isExpanded {
+        VStack(spacing: 1) {
+          ForEach(Array(group.enumerated()), id: \.element.id) { itemIndex, item in
+            HistoryItemPoolView(
+              item: item, 
+              poolIndex: groupIndex * 10 + itemIndex,
+              groupNumber: groupIndex,
+              itemInGroupIndex: itemIndex
+            )
+          }
+        }
+        .padding(.top, 4)
+        .padding(.horizontal, 4)
+        .transition(.asymmetric(
+          insertion: .scale(scale: 0.95).combined(with: .opacity),
+          removal: .scale(scale: 0.95).combined(with: .opacity)
+        ))
+        .animation(.easeInOut(duration: 0.25), value: isExpanded)
+      }
+    }
+    .padding(.vertical, 2)
   }
 }
