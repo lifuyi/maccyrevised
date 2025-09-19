@@ -48,8 +48,27 @@ struct HistoryListView: View {
     ScrollView {
       ScrollViewReader { proxy in
         LazyVStack(spacing: 0) {
-          ForEach(unpinnedItems) { item in
+          // Display first 10 unpinned items normally
+          ForEach(Array(unpinnedItems.prefix(10).enumerated()), id: \.element.id) { index, item in
             HistoryItemView(item: item)
+          }
+          
+          // Add separator if there are pool items
+          if unpinnedItems.count > 10 {
+            Divider()
+              .padding(.horizontal, 10)
+              .padding(.vertical, 2)
+              .overlay(alignment: .trailing) {
+                Text("Pool")
+                  .font(.system(size: 9, weight: .medium, design: .default))
+                  .foregroundColor(.secondary)
+                  .padding(.trailing, 12)
+              }
+          }
+          
+          // Display pool items (11th and beyond) with pool view
+          ForEach(Array(unpinnedItems.dropFirst(10).enumerated()), id: \.element.id) { poolIndex, item in
+            HistoryItemPoolView(item: item, poolIndex: poolIndex)
           }
         }
         .task(id: appState.scrollTarget) {
