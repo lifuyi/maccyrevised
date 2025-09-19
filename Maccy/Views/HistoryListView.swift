@@ -89,7 +89,8 @@ struct HistoryListView: View {
           GeometryReader { geo in
             Color.clear
               .task(id: appState.popup.needsResize) {
-                try? await Task.sleep(for: .milliseconds(10))
+                // Wait for animations to complete (pool group expand/collapse = 0.2s + buffer)
+                try? await Task.sleep(for: .milliseconds(250))
                 guard !Task.isCancelled else { return }
 
                 if appState.popup.needsResize {
@@ -129,6 +130,7 @@ struct HistoryListView: View {
 struct PoolGroupsView: View {
   let unpinnedItems: [HistoryItemDecorator]
   @Binding var expandedGroups: Set<Int>
+  @Environment(AppState.self) private var appState
   
   var body: some View {
     let poolItems = Array(unpinnedItems.dropFirst(10))
@@ -140,6 +142,9 @@ struct PoolGroupsView: View {
         groupIndex: groupIndex,
         isExpanded: expandedGroups.contains(groupIndex),
         toggleExpansion: {
+          // Trigger immediate height update for responsive UI
+          AppState.shared.popup.needsResize = true
+          
           withAnimation(.easeInOut(duration: 0.2)) {
             if expandedGroups.contains(groupIndex) {
               expandedGroups.remove(groupIndex)
