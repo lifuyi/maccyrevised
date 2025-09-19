@@ -1,0 +1,83 @@
+{
+  "": {
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/master.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/checkouts/Settings/Sources/Settings/Container.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Container.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Container.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Container~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Container.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/checkouts/Settings/Sources/Settings/Pane.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Pane.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Pane.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Pane~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Pane.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/checkouts/Settings/Sources/Settings/Section.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Section.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Section.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Section~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Section.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/checkouts/Settings/Sources/Settings/SegmentedControlStyleViewController.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/SegmentedControlStyleViewController.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/SegmentedControlStyleViewController.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/SegmentedControlStyleViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/SegmentedControlStyleViewController.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/checkouts/Settings/Sources/Settings/Settings.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Settings.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Settings.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Settings~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Settings.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/checkouts/Settings/Sources/Settings/SettingsPane.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/SettingsPane.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/SettingsPane.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/SettingsPane~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/SettingsPane.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/checkouts/Settings/Sources/Settings/SettingsStyleController.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/SettingsStyleController.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/SettingsStyleController.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/SettingsStyleController~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/SettingsStyleController.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/checkouts/Settings/Sources/Settings/SettingsTabViewController.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/SettingsTabViewController.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/SettingsTabViewController.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/SettingsTabViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/SettingsTabViewController.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/checkouts/Settings/Sources/Settings/SettingsWindowController.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/SettingsWindowController.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/SettingsWindowController.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/SettingsWindowController~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/SettingsWindowController.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/checkouts/Settings/Sources/Settings/Style.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Style.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Style.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Style~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Style.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/checkouts/Settings/Sources/Settings/ToolbarItemStyleViewController.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/ToolbarItemStyleViewController.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/ToolbarItemStyleViewController.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/ToolbarItemStyleViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/ToolbarItemStyleViewController.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/checkouts/Settings/Sources/Settings/Utilities.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Utilities.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Utilities.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Utilities~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Utilities.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/resource_bundle_accessor.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/resource_bundle_accessor.swiftdeps"
+  }
+}

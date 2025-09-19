@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyPackageTests.build/master.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyPackageTests.build/runner.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyPackageTests.build/runner.swiftdeps"
+  }
+}

@@ -1,0 +1,4 @@
+module SwiftHEXColors {
+    header "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/SwiftHEXColors.build/SwiftHEXColors-Swift.h"
+    requires objc
+}

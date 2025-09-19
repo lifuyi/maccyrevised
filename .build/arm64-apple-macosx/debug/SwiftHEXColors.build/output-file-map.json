@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/SwiftHEXColors.build/master.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/checkouts/SwiftHEXColors/Sources/SwiftHEXColors/SwiftHEXColors.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/SwiftHEXColors.build/SwiftHEXColors.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/SwiftHEXColors.build/SwiftHEXColors.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/SwiftHEXColors.build/SwiftHEXColors~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/SwiftHEXColors.build/SwiftHEXColors.swiftdeps"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/NSScreen+ForPopup.swift" : {
+    "const-values" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/NSScreen+ForPopup.swiftconstvalues",
+    "dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/NSScreen+ForPopup.d",
+    "diagnostics" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/NSScreen+ForPopup.dia",
+    "object" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/NSScreen+ForPopup.o",
+    "swift-dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/NSScreen+ForPopup.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Observables/AppState.swift" : {
+    "const-values" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/AppState.swiftconstvalues",
+    "dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/AppState.d",
+    "diagnostics" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/AppState.dia",
+    "object" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/AppState.o",
+    "swift-dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/AppState.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Observables/History.swift" : {
+    "const-values" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/History.swiftconstvalues",
+    "dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/History.d",
+    "diagnostics" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/History.dia",
+    "object" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/History.o",
+    "swift-dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/History.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Settings/IgnoreSettingsPane/IgnoreApplicationsSettingsView.swift" : {
+    "const-values" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/IgnoreApplicationsSettingsView.swiftconstvalues",
+    "dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/IgnoreApplicationsSettingsView.d",
+    "diagnostics" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/IgnoreApplicationsSettingsView.dia",
+    "object" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/IgnoreApplicationsSettingsView.o",
+    "swift-dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/IgnoreApplicationsSettingsView.swiftdeps"
+  }
+}

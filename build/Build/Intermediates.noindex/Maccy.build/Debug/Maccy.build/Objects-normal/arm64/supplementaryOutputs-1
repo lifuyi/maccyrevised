@@ -1,0 +1,37 @@
+{
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/AppStoreReview.swift" : {
+    "const-values" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/AppStoreReview.swiftconstvalues",
+    "dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/AppStoreReview.d",
+    "diagnostics" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/AppStoreReview.dia",
+    "object" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/AppStoreReview.o",
+    "swift-dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/AppStoreReview.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/KeyShortcut.swift" : {
+    "const-values" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/KeyShortcut.swiftconstvalues",
+    "dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/KeyShortcut.d",
+    "diagnostics" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/KeyShortcut.dia",
+    "object" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/KeyShortcut.o",
+    "swift-dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/KeyShortcut.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Settings/IgnoreSettingsPane/IgnoreRegexpsSettingsView.swift" : {
+    "const-values" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/IgnoreRegexpsSettingsView.swiftconstvalues",
+    "dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/IgnoreRegexpsSettingsView.d",
+    "diagnostics" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/IgnoreRegexpsSettingsView.dia",
+    "object" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/IgnoreRegexpsSettingsView.o",
+    "swift-dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/IgnoreRegexpsSettingsView.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Views/HistoryListView.swift" : {
+    "const-values" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/HistoryListView.swiftconstvalues",
+    "dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/HistoryListView.d",
+    "diagnostics" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/HistoryListView.dia",
+    "object" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/HistoryListView.o",
+    "swift-dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/HistoryListView.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Views/PreviewItemView.swift" : {
+    "const-values" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/PreviewItemView.swiftconstvalues",
+    "dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/PreviewItemView.d",
+    "diagnostics" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/PreviewItemView.dia",
+    "object" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/PreviewItemView.o",
+    "swift-dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/PreviewItemView.swiftdeps"
+  }
+}

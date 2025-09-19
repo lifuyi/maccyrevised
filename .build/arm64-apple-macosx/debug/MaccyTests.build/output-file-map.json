@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/master.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/MaccyTests/ClipboardTests.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/ClipboardTests.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/ClipboardTests.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/ClipboardTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/ClipboardTests.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/MaccyTests/ColorImageTests.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/ColorImageTests.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/ColorImageTests.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/ColorImageTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/ColorImageTests.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/MaccyTests/HistoryDecoratorTests.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/HistoryDecoratorTests.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/HistoryDecoratorTests.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/HistoryDecoratorTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/HistoryDecoratorTests.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/MaccyTests/HistoryItemTests.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/HistoryItemTests.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/HistoryItemTests.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/HistoryItemTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/HistoryItemTests.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/MaccyTests/HistoryTests.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/HistoryTests.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/HistoryTests.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/HistoryTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/HistoryTests.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/MaccyTests/SearchTests.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/SearchTests.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/SearchTests.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/SearchTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/SearchTests.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/MaccyTests/SorterTests.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/SorterTests.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/SorterTests.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/SorterTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/MaccyTests.build/SorterTests.swiftdeps"
+  }
+}

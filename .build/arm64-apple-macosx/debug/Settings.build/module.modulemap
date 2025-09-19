@@ -1,0 +1,4 @@
+module Settings {
+    header "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Settings.build/Settings-Swift.h"
+    requires objc
+}

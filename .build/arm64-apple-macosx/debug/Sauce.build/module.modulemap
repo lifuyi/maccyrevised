@@ -1,0 +1,4 @@
+module Sauce {
+    header "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Sauce.build/Sauce-Swift.h"
+    requires objc
+}

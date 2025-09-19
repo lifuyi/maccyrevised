@@ -1,0 +1,79 @@
+{
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/NSApplication+Windows.swift" : {
+    "const-values" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/NSApplication+Windows.swiftconstvalues",
+    "dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/NSApplication+Windows.d",
+    "diagnostics" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/NSApplication+Windows.dia",
+    "object" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/NSApplication+Windows.o",
+    "swift-dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/NSApplication+Windows.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/NSImage+Resized.swift" : {
+    "const-values" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/NSImage+Resized.swiftconstvalues",
+    "dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/NSImage+Resized.d",
+    "diagnostics" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/NSImage+Resized.dia",
+    "object" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/NSImage+Resized.o",
+    "swift-dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/NSImage+Resized.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/NSRect+Centered.swift" : {
+    "const-values" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/NSRect+Centered.swiftconstvalues",
+    "dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/NSRect+Centered.d",
+    "diagnostics" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/NSRect+Centered.dia",
+    "object" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/NSRect+Centered.o",
+    "swift-dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/NSRect+Centered.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/String+Shortened.swift" : {
+    "const-values" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/String+Shortened.swiftconstvalues",
+    "dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/String+Shortened.d",
+    "diagnostics" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/String+Shortened.dia",
+    "object" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/String+Shortened.o",
+    "swift-dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/String+Shortened.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Observables/FooterItem.swift" : {
+    "const-values" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/FooterItem.swiftconstvalues",
+    "dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/FooterItem.d",
+    "diagnostics" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/FooterItem.dia",
+    "object" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/FooterItem.o",
+    "swift-dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/FooterItem.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/PopupPosition.swift" : {
+    "const-values" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/PopupPosition.swiftconstvalues",
+    "dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/PopupPosition.d",
+    "diagnostics" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/PopupPosition.dia",
+    "object" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/PopupPosition.o",
+    "swift-dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/PopupPosition.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Search.swift" : {
+    "const-values" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/Search.swiftconstvalues",
+    "dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/Search.d",
+    "diagnostics" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/Search.dia",
+    "object" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/Search.o",
+    "swift-dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/Search.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/SearchVisibility.swift" : {
+    "const-values" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/SearchVisibility.swiftconstvalues",
+    "dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/SearchVisibility.d",
+    "diagnostics" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/SearchVisibility.dia",
+    "object" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/SearchVisibility.o",
+    "swift-dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/SearchVisibility.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Settings/IgnoreSettingsPane/IgnorePasteboardTypesSettingsView.swift" : {
+    "const-values" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/IgnorePasteboardTypesSettingsView.swiftconstvalues",
+    "dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/IgnorePasteboardTypesSettingsView.d",
+    "diagnostics" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/IgnorePasteboardTypesSettingsView.dia",
+    "object" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/IgnorePasteboardTypesSettingsView.o",
+    "swift-dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/IgnorePasteboardTypesSettingsView.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Views/FooterItemView.swift" : {
+    "const-values" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/FooterItemView.swiftconstvalues",
+    "dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/FooterItemView.d",
+    "diagnostics" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/FooterItemView.dia",
+    "object" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/FooterItemView.o",
+    "swift-dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/FooterItemView.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Views/FooterView.swift" : {
+    "const-values" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/FooterView.swiftconstvalues",
+    "dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/FooterView.d",
+    "diagnostics" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/FooterView.dia",
+    "object" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/FooterView.o",
+    "swift-dependencies" : "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/build/Build/Intermediates.noindex/Maccy.build/Debug/Maccy.build/Objects-normal/arm64/FooterView.swiftdeps"
+  }
+}

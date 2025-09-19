@@ -1,0 +1,533 @@
+{
+  "": {
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/master.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/About.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/About.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/About.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/About~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/About.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Accessibility.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Accessibility.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Accessibility.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Accessibility~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Accessibility.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/AppDelegate.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/AppDelegate.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/AppDelegate.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/AppDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/AppDelegate.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/AppStoreReview.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/AppStoreReview.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/AppStoreReview.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/AppStoreReview~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/AppStoreReview.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/ApplicationImage.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ApplicationImage.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ApplicationImage.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ApplicationImage~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ApplicationImage.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/ApplicationImageCache.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ApplicationImageCache.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ApplicationImageCache.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ApplicationImageCache~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ApplicationImageCache.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Clipboard.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Clipboard.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Clipboard.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Clipboard~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Clipboard.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/ColorImage.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ColorImage.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ColorImage.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ColorImage~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ColorImage.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/Collection+Surrounding.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Collection+Surrounding.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Collection+Surrounding.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Collection+Surrounding~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Collection+Surrounding.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/Color+Random.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Color+Random.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Color+Random.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Color+Random~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Color+Random.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/Defaults.Keys+Names.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Defaults.Keys+Names.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Defaults.Keys+Names.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Defaults.Keys+Names~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Defaults.Keys+Names.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/Dictionary+RemoveItem.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Dictionary+RemoveItem.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Dictionary+RemoveItem.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Dictionary+RemoveItem~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Dictionary+RemoveItem.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/KeyEquivalent+Keys.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyEquivalent+Keys.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyEquivalent+Keys.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyEquivalent+Keys~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyEquivalent+Keys.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/KeyboardShortcuts.Name+Shortcuts.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyboardShortcuts.Name+Shortcuts.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyboardShortcuts.Name+Shortcuts.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyboardShortcuts.Name+Shortcuts~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyboardShortcuts.Name+Shortcuts.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/ModifierFlags+Description.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ModifierFlags+Description.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ModifierFlags+Description.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ModifierFlags+Description~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ModifierFlags+Description.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/NSApplication+Windows.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSApplication+Windows.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSApplication+Windows.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSApplication+Windows~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSApplication+Windows.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/NSImage+Names.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSImage+Names.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSImage+Names.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSImage+Names~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSImage+Names.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/NSImage+Resized.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSImage+Resized.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSImage+Resized.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSImage+Resized~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSImage+Resized.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/NSPasteboard.PasteboardType+Types.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSPasteboard.PasteboardType+Types.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSPasteboard.PasteboardType+Types.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSPasteboard.PasteboardType+Types~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSPasteboard.PasteboardType+Types.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/NSPoint+DefaultsSerializable.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSPoint+DefaultsSerializable.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSPoint+DefaultsSerializable.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSPoint+DefaultsSerializable~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSPoint+DefaultsSerializable.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/NSRect+Centered.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSRect+Centered.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSRect+Centered.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSRect+Centered~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSRect+Centered.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/NSRunningApplication+WindowFrame.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSRunningApplication+WindowFrame.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSRunningApplication+WindowFrame.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSRunningApplication+WindowFrame~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSRunningApplication+WindowFrame.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/NSScreen+ForPopup.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSScreen+ForPopup.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSScreen+ForPopup.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSScreen+ForPopup~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSScreen+ForPopup.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/NSSize+DefaultsSerializable.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSSize+DefaultsSerializable.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSSize+DefaultsSerializable.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSSize+DefaultsSerializable~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSSize+DefaultsSerializable.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/NSSound+Named.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSSound+Named.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSSound+Named.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSSound+Named~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSSound+Named.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/NSWorkspace+ApplicationName.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSWorkspace+ApplicationName.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSWorkspace+ApplicationName.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSWorkspace+ApplicationName~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/NSWorkspace+ApplicationName.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/Sauce+KeyboardShortcuts.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Sauce+KeyboardShortcuts.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Sauce+KeyboardShortcuts.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Sauce+KeyboardShortcuts~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Sauce+KeyboardShortcuts.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/Settings.PaneIdentifier+Panes.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Settings.PaneIdentifier+Panes.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Settings.PaneIdentifier+Panes.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Settings.PaneIdentifier+Panes~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Settings.PaneIdentifier+Panes.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/String+Identifiable.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/String+Identifiable.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/String+Identifiable.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/String+Identifiable~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/String+Identifiable.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Extensions/String+Shortened.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/String+Shortened.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/String+Shortened.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/String+Shortened~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/String+Shortened.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/FloatingPanel.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/FloatingPanel.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/FloatingPanel.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/FloatingPanel~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/FloatingPanel.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/GlobalHotKey.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/GlobalHotKey.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/GlobalHotKey.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/GlobalHotKey~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/GlobalHotKey.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/HighlightMatch.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HighlightMatch.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HighlightMatch.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HighlightMatch~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HighlightMatch.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/HistoryItemAction.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryItemAction.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryItemAction.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryItemAction~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryItemAction.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Intents/AppIntentError.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/AppIntentError.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/AppIntentError.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/AppIntentError~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/AppIntentError.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Intents/Clear.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Clear.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Clear.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Clear~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Clear.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Intents/Delete.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Delete.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Delete.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Delete~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Delete.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Intents/Get.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Get.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Get.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Get~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Get.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Intents/HistoryItemAppEntity.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryItemAppEntity.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryItemAppEntity.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryItemAppEntity~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryItemAppEntity.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Intents/Select.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Select.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Select.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Select~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Select.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/KeyChord.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyChord.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyChord.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyChord~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyChord.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/KeyShortcut.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyShortcut.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyShortcut.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyShortcut~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyShortcut.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/KeyboardLayout.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyboardLayout.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyboardLayout.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyboardLayout~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyboardLayout.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/MaccyApp.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/MaccyApp.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/MaccyApp.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/MaccyApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/MaccyApp.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/MenuIcon.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/MenuIcon.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/MenuIcon.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/MenuIcon~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/MenuIcon.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Models/HistoryItem.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryItem.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryItem.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryItem~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryItem.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Models/HistoryItemContent.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryItemContent.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryItemContent.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryItemContent~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryItemContent.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Notifier.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Notifier.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Notifier.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Notifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Notifier.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Observables/AppState.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/AppState.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/AppState.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/AppState~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/AppState.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Observables/Footer.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Footer.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Footer.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Footer~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Footer.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Observables/FooterItem.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/FooterItem.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/FooterItem.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/FooterItem~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/FooterItem.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Observables/History.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/History.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/History.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/History~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/History.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Observables/HistoryItemDecorator.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryItemDecorator.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryItemDecorator.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryItemDecorator~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryItemDecorator.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Observables/ModifierFlags.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ModifierFlags.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ModifierFlags.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ModifierFlags~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ModifierFlags.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Observables/Popup.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Popup.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Popup.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Popup~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Popup.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/PinsPosition.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/PinsPosition.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/PinsPosition.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/PinsPosition~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/PinsPosition.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/PopupPosition.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/PopupPosition.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/PopupPosition.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/PopupPosition~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/PopupPosition.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Search.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Search.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Search.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Search~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Search.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/SearchVisibility.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/SearchVisibility.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/SearchVisibility.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/SearchVisibility~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/SearchVisibility.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Settings/AdvancedSettingsPane.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/AdvancedSettingsPane.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/AdvancedSettingsPane.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/AdvancedSettingsPane~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/AdvancedSettingsPane.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Settings/AppearanceSettingsPane.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/AppearanceSettingsPane.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/AppearanceSettingsPane.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/AppearanceSettingsPane~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/AppearanceSettingsPane.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Settings/GeneralSettingsPane.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/GeneralSettingsPane.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/GeneralSettingsPane.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/GeneralSettingsPane~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/GeneralSettingsPane.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Settings/IgnoreSettingsPane.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/IgnoreSettingsPane.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/IgnoreSettingsPane.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/IgnoreSettingsPane~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/IgnoreSettingsPane.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Settings/IgnoreSettingsPane/IgnoreApplicationsSettingsView.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/IgnoreApplicationsSettingsView.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/IgnoreApplicationsSettingsView.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/IgnoreApplicationsSettingsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/IgnoreApplicationsSettingsView.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Settings/IgnoreSettingsPane/IgnorePasteboardTypesSettingsView.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/IgnorePasteboardTypesSettingsView.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/IgnorePasteboardTypesSettingsView.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/IgnorePasteboardTypesSettingsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/IgnorePasteboardTypesSettingsView.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Settings/IgnoreSettingsPane/IgnoreRegexpsSettingsView.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/IgnoreRegexpsSettingsView.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/IgnoreRegexpsSettingsView.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/IgnoreRegexpsSettingsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/IgnoreRegexpsSettingsView.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Settings/PinsSettingsPane.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/PinsSettingsPane.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/PinsSettingsPane.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/PinsSettingsPane~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/PinsSettingsPane.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Settings/StorageSettingsPane.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/StorageSettingsPane.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/StorageSettingsPane.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/StorageSettingsPane~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/StorageSettingsPane.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/SoftwareUpdater.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/SoftwareUpdater.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/SoftwareUpdater.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/SoftwareUpdater~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/SoftwareUpdater.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Sorter.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Sorter.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Sorter.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Sorter~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Sorter.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Storage.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Storage.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Storage.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Storage~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Storage.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Throttler.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Throttler.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Throttler.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Throttler~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/Throttler.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Views/ConfirmationView.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ConfirmationView.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ConfirmationView.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ConfirmationView~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ConfirmationView.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Views/ContentView.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ContentView.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ContentView.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ContentView.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Views/FooterItemView.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/FooterItemView.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/FooterItemView.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/FooterItemView~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/FooterItemView.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Views/FooterView.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/FooterView.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/FooterView.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/FooterView~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/FooterView.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Views/HeaderView.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HeaderView.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HeaderView.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HeaderView~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HeaderView.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Views/HistoryItemView.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryItemView.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryItemView.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryItemView~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryItemView.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Views/HistoryListView.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryListView.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryListView.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryListView~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/HistoryListView.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Views/KeyHandlingView.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyHandlingView.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyHandlingView.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyHandlingView~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyHandlingView.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Views/KeyboardShortcutView.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyboardShortcutView.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyboardShortcutView.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyboardShortcutView~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/KeyboardShortcutView.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Views/ListItemTitleView.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ListItemTitleView.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ListItemTitleView.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ListItemTitleView~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ListItemTitleView.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Views/ListItemView.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ListItemView.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ListItemView.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ListItemView~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/ListItemView.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Views/MouseMovedViewModifer.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/MouseMovedViewModifer.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/MouseMovedViewModifer.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/MouseMovedViewModifer~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/MouseMovedViewModifer.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Views/PreviewItemView.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/PreviewItemView.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/PreviewItemView.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/PreviewItemView~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/PreviewItemView.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Views/SearchFieldView.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/SearchFieldView.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/SearchFieldView.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/SearchFieldView~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/SearchFieldView.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Views/VisualEffectView.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/VisualEffectView.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/VisualEffectView.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/VisualEffectView~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/VisualEffectView.swiftdeps"
+  },
+  "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/Maccy/Views/WrappingTextView.swift": {
+    "dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/WrappingTextView.d",
+    "object": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/WrappingTextView.swift.o",
+    "swiftmodule": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/WrappingTextView~partial.swiftmodule",
+    "swift-dependencies": "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Maccy.build/WrappingTextView.swiftdeps"
+  }
+}

@@ -1,0 +1,4 @@
+module Defaults {
+    header "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Defaults.build/Defaults-Swift.h"
+    requires objc
+}

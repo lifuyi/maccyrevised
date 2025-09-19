@@ -1,0 +1,17 @@
+{
+  "source" : "ExtractedAppShortcutsMetadata",
+  "version" : 1,
+  "tables" : {
+    "Localizable" : [
+      {
+        "key" : "Clear Clipboard History"
+      },
+      {
+        "key" : "Delete ${number} Item from Clipboard History"
+      },
+      {
+        "key" : "Select ${number} Item in Clipboard History"
+      }
+    ]
+  }
+}

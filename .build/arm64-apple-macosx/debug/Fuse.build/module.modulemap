@@ -1,0 +1,4 @@
+module Fuse {
+    header "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/Fuse.build/Fuse-Swift.h"
+    requires objc
+}

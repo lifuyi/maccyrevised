@@ -1,0 +1,4 @@
+module LaunchAtLogin {
+    header "/Users/eyeopen/Downloads/Clipy-develop/Maccy-master/.build/arm64-apple-macosx/debug/LaunchAtLogin.build/LaunchAtLogin-Swift.h"
+    requires objc
+}
