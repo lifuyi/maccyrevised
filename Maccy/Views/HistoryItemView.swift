@@ -55,17 +55,15 @@ struct HistoryItemPoolView: View {
     .popover(isPresented: $item.showPreview, arrowEdge: .trailing) {
       PreviewItemView(item: item)
     }
-    .padding(.leading, 12)
-    .opacity(0.8)
+    .padding(.leading, 24)
+    .opacity(0.85)
     .overlay(alignment: .leading) {
-      if itemInGroupIndex < 9 {
-        Text("\(itemInGroupIndex + 1)")
-          .font(.system(size: 9, weight: .medium, design: .monospaced))
-          .foregroundColor(.secondary.opacity(0.6))
-          .padding(.leading, 2)
-      }
+      Text("\(itemInGroupIndex + 1)")
+        .font(.system(size: 9, weight: .semibold, design: .monospaced))
+        .foregroundColor(.secondary.opacity(0.5))
+        .frame(width: 16, alignment: .center)
+        .padding(.leading, 4)
     }
-    .scaleEffect(1.0)
     .animation(.easeInOut(duration: 0.15), value: item.isSelected)
   }
 }

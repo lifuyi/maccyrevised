@@ -140,6 +140,7 @@ struct PoolGroupsView: View {
       PoolGroupView(
         group: group,
         groupIndex: groupIndex,
+        totalGroups: groups.count,
         isExpanded: expandedGroups.contains(groupIndex),
         toggleExpansion: {
           // Trigger immediate height update for responsive UI
@@ -167,38 +168,60 @@ struct PoolGroupsView: View {
 struct PoolGroupView: View {
   let group: [HistoryItemDecorator]
   let groupIndex: Int
+  let totalGroups: Int
   let isExpanded: Bool
   let toggleExpansion: () -> Void
   
+  private var groupLabel: String {
+    let startItem = groupIndex * 10 + 11 // First 10 are shown normally
+    let endItem = min(startItem + group.count - 1, startItem + 9)
+    return "Items \(startItem)–\(endItem)"
+  }
+  
   var body: some View {
     VStack(spacing: 0) {
-      // Expandable group header with enhanced styling
-      HStack {
+      // Elegant expandable group header
+      HStack(spacing: 10) {
         Image(systemName: isExpanded ? "chevron.down" : "chevron.right")
-          .font(.system(size: 11))
-          .foregroundColor(isExpanded ? .accentColor : .secondary)
+          .font(.system(size: 11, weight: .semibold))
+          .foregroundColor(.accentColor)
+          .frame(width: 12)
           .animation(.easeInOut(duration: 0.2), value: isExpanded)
         
-        Text("Pool Group \(groupIndex + 1)")
-          .font(.system(size: 11, weight: .medium, design: .default))
-          .foregroundColor(isExpanded ? .primary : .secondary)
+        VStack(alignment: .leading, spacing: 2) {
+          Text(groupLabel)
+            .font(.system(size: 11, weight: .semibold, design: .default))
+            .foregroundColor(.primary)
+          
+          Text("Group \(groupIndex + 1) of \(totalGroups)")
+            .font(.system(size: 9, weight: .regular, design: .default))
+            .foregroundColor(.secondary)
+        }
         
         Spacer()
         
         Text("\(group.count) items")
-          .font(.system(size: 10))
-          .foregroundColor(.secondary.opacity(0.8))
+          .font(.system(size: 10, weight: .medium, design: .monospaced))
+          .foregroundColor(.secondary)
+          .padding(.horizontal, 8)
+          .padding(.vertical, 4)
+          .background(Color.secondary.opacity(0.1))
+          .cornerRadius(4)
       }
-      .padding(.horizontal, 14)
-      .padding(.vertical, 8)
-      .background(isExpanded ? Color.accentColor.opacity(0.1) : Color.secondary.opacity(0.05))
-      .cornerRadius(6)
+      .padding(.horizontal, 12)
+      .padding(.vertical, 10)
+      .background(
+        isExpanded
+          ? Color.accentColor.opacity(0.08)
+          : Color.secondary.opacity(0.04)
+      )
+      .cornerRadius(8)
       .padding(.horizontal, 6)
       .onTapGesture(perform: toggleExpansion)
-      .scaleEffect(isExpanded ? 1.02 : 1.0)
+      .scaleEffect(isExpanded ? 1.01 : 1.0, anchor: .center)
       .animation(.easeInOut(duration: 0.1), value: isExpanded)
       
-      // Items in this group (only show if expanded) with dynamic sizing
+      // Items in this group (only show if expanded)
       if isExpanded {
         VStack(spacing: 1) {
           ForEach(Array(group.enumerated()), id: \.element.id) { itemIndex, item in
@@ -210,7 +233,7 @@ struct PoolGroupView: View {
             )
           }
         }
-        .padding(.top, 4)
+        .padding(.top, 6)
         .padding(.horizontal, 4)
         .transition(.asymmetric(
           insertion: .scale(scale: 0.95).combined(with: .opacity),
@@ -219,6 +242,6 @@ struct PoolGroupView: View {
         .animation(.easeInOut(duration: 0.25), value: isExpanded)
       }
     }
-    .padding(.vertical, 2)
+    .padding(.vertical, 3)
   }
 }
