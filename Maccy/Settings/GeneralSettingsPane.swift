@@ -67,7 +67,7 @@ struct GeneralSettingsPane: View {
           }
         }
         .labelsHidden()
-        .frame(width: 180)
+        .frame(width: 180, alignment: .leading)
       }
 
       Settings.Section(
@@ -84,16 +84,6 @@ struct GeneralSettingsPane: View {
           Text("PasteWithoutFormatting", tableName: "GeneralSettings")
         }
         .onChange(refreshModifiers)
-        .fixedSize()
-
-        Defaults.Toggle(key: .playSoundOnCopy) {
-          Text("PlaySoundOnCopy", tableName: "GeneralSettings")
-        }
-        .fixedSize()
-
-        Defaults.Toggle(key: .showNotifications) {
-          Text("ShowNotifications", tableName: "GeneralSettings")
-        }
         .fixedSize()
 
         Text(String(

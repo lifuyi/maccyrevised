@@ -1,5 +1,4 @@
 import AppKit
-import Defaults
 import UserNotifications
 
 class Notifier {
@@ -15,15 +14,6 @@ class Notifier {
 
   static func notify(body: String?, sound: NSSound?) {
     guard let body else { return }
-    
-    // Check if notifications are enabled
-    guard Defaults[.showNotifications] else { 
-      // Still play sound if notifications are disabled but sound is enabled
-      if Defaults[.playSoundOnCopy] {
-        sound?.play()
-      }
-      return 
-    }
 
     authorize()
 

@@ -11,8 +11,6 @@
 "Behavior" = "Behavior:";
 "PasteAutomatically" = "Paste automatically";
 "PasteWithoutFormatting" = "Paste without formatting";
-"PlaySoundOnCopy" = "Play sound when copying";
-"ShowNotifications" = "Show notifications when copying";
 "Modifiers" = "Customize the behavior when selecting item:\n• Select with %@ pressed to copy item.\n• Select with %@ pressed to copy and paste item.\n• Select with %@ pressed to copy, clear formatting, and paste item.";
 "Search" = "Search:";
 "Exact" = "Exact";

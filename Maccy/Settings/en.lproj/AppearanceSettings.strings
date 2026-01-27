@@ -32,6 +32,4 @@
 "ShowTitleBeforeSearchField" = "Show title before search field";
 "ShowApplicationIcons" = "Show application icons";
 "ShowFooter" = "Show footer";
-"MaxDisplayLength" = "Max display length:";
-"MaxDisplayLengthTooltip" = "Maximum number of characters to display for each item in the list.\nDefault: 100.";
 "OpenPreferencesWarning" = "⚠️ Press ⌘, (command+comma) to open preferences when footer is hidden.";

@@ -103,9 +103,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
   }
 
   func applicationShouldHandleReopen(_ sender: NSApplication, hasVisibleWindows flag: Bool) -> Bool {
-    if Defaults[.popupAutomatically] {
-      panel.toggle(height: AppState.shared.popup.height)
-    }
+    panel.toggle(height: AppState.shared.popup.height)
     return true
   }
 
@@ -156,9 +154,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
       }
     }
 
-    if Defaults[.popupAutomatically] {
-      panel.toggle(height: AppState.shared.popup.height, at: .statusItem)
-    }
+    panel.toggle(height: AppState.shared.popup.height, at: .statusItem)
   }
 
   private func synchronizeMenuIconText() {

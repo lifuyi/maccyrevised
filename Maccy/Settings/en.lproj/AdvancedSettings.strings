@@ -8,5 +8,3 @@
 "ClearHistoryOnQuitTooltip" = "Automatically remove all unpinned items before quitting the application.";
 "ClearSystemClipboard" = "Clear the system clipboard too";
 "ClearSystemClipboardTooltip" = "When enabled, clearing the history would also clear the current system clipboard.";
-"PopupAutomatically" = "Show popup automatically";
-"PopupAutomaticallyTooltip" = "When enabled, the popup will appear automatically when copying to clipboard.";

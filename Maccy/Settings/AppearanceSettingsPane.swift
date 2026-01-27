@@ -7,7 +7,6 @@ struct AppearanceSettingsPane: View {
   @Default(.popupPosition) private var popupAt
   @Default(.popupScreen) private var popupScreen
   @Default(.pinTo) private var pinTo
-  @Default(.maxDisplayLength) private var maxDisplayLength
   @Default(.imageMaxHeight) private var imageHeight
   @Default(.previewDelay) private var previewDelay
   @Default(.highlightMatch) private var highlightMatch
@@ -32,13 +31,6 @@ struct AppearanceSettingsPane: View {
     let formatter = NumberFormatter()
     formatter.minimum = 0
     formatter.maximum = 100
-    return formatter
-  }()
-
-  private let maxDisplayLengthFormatter: NumberFormatter = {
-    let formatter = NumberFormatter()
-    formatter.minimum = 10
-    formatter.maximum = 1000
     return formatter
   }()
 
@@ -70,7 +62,7 @@ struct AppearanceSettingsPane: View {
             }
           }
           .labelsHidden()
-          .frame(width: 141)
+          .frame(width: 141, alignment: .leading)
           .help(Text("PopupAtTooltip", tableName: "AppearanceSettings"))
 
           if popupAt == .lastPosition {
@@ -94,7 +86,7 @@ struct AppearanceSettingsPane: View {
           }
         }
         .labelsHidden()
-        .frame(width: 141)
+        .frame(width: 141, alignment: .leading)
         .help(Text("PinToTooltip", tableName: "AppearanceSettings"))
       }
 
@@ -104,16 +96,6 @@ struct AppearanceSettingsPane: View {
             .frame(width: 120)
             .help(Text("ImageHeightTooltip", tableName: "AppearanceSettings"))
           Stepper("", value: $imageHeight, in: 1...200)
-            .labelsHidden()
-        }
-      }
-
-      Settings.Section(label: { Text("MaxDisplayLength", tableName: "AppearanceSettings") }) {
-        HStack {
-          TextField("", value: $maxDisplayLength, formatter: maxDisplayLengthFormatter)
-            .frame(width: 120)
-            .help(Text("MaxDisplayLengthTooltip", tableName: "AppearanceSettings"))
-          Stepper("", value: $maxDisplayLength, in: 10...1000)
             .labelsHidden()
         }
       }
@@ -138,7 +120,7 @@ struct AppearanceSettingsPane: View {
           }
         }
         .labelsHidden()
-        .frame(width: 141)
+        .frame(width: 141, alignment: .leading)
         .help(Text("HighlightMatchesTooltip", tableName: "AppearanceSettings"))
       }
 

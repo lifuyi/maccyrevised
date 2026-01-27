@@ -47,8 +47,12 @@ class HistoryItem {
     NSPasteboard.PasteboardType.modified.rawValue,
     NSPasteboard.PasteboardType.fromMaccy.rawValue,
     NSPasteboard.PasteboardType.linkPresentationMetadata.rawValue,
-    NSPasteboard.PasteboardType.customPasteboardData.rawValue,
-    NSPasteboard.PasteboardType.source.rawValue
+    NSPasteboard.PasteboardType.customWebKitPasteboardData.rawValue,
+    NSPasteboard.PasteboardType.source.rawValue,
+    NSPasteboard.PasteboardType.customChromiumWebData.rawValue,
+    NSPasteboard.PasteboardType.chromiumSourceUrl.rawValue,
+    NSPasteboard.PasteboardType.chromiumSourceToken.rawValue,
+    NSPasteboard.PasteboardType.notesRichText.rawValue
   ]
 
   var application: String?
@@ -86,7 +90,7 @@ class HistoryItem {
     }
 
     // 1k characters is trade-off for performance
-    var title = previewableText.shortened(to: Defaults[.maxDisplayLength])
+    var title = previewableText.shortened(to: 1_000)
 
     if Defaults[.showSpecialSymbols] {
       if let range = title.range(of: "^ +", options: .regularExpression) {

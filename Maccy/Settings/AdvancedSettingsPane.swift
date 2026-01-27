@@ -37,12 +37,6 @@ struct AdvancedSettingsPane: View {
       Defaults.Toggle(key: .clearSystemClipboard) {
         Text("ClearSystemClipboard", tableName: "AdvancedSettings")
       }.help(Text("ClearSystemClipboardTooltip", tableName: "AdvancedSettings"))
-
-      Divider()
-
-      Defaults.Toggle(key: .popupAutomatically) {
-        Text("PopupAutomatically", tableName: "AdvancedSettings")
-      }.help(Text("PopupAutomaticallyTooltip", tableName: "AdvancedSettings"))
     }
     .frame(minWidth: 350, maxWidth: 450)
     .padding()
