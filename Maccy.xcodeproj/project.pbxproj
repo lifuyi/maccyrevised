@@ -115,6 +115,7 @@
 		DAA072D12C4089D3006DDFD2 /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA072D02C4089D3006DDFD2 /* VisualEffectView.swift */; };
 		DAA072D32C40A961006DDFD2 /* Color+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA072D22C40A961006DDFD2 /* Color+Random.swift */; };
 		DAA072D52C40AC52006DDFD2 /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA072D42C40AC52006DDFD2 /* HistoryListView.swift */; };
+		F0ABCD011234567800ABCDEF /* CollapsibleHistoryGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0ABCD001234567800ABCDEF /* CollapsibleHistoryGroup.swift */; };
 		DAA072D72C41C574006DDFD2 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA072D62C41C574006DDFD2 /* AppState.swift */; };
 		DAA072D92C41C5AD006DDFD2 /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA072D82C41C5AD006DDFD2 /* Footer.swift */; };
 		DAA072DB2C41C5DD006DDFD2 /* FooterItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA072DA2C41C5DD006DDFD2 /* FooterItem.swift */; };
@@ -455,6 +456,7 @@
 		DAA072D02C4089D3006DDFD2 /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
 		DAA072D22C40A961006DDFD2 /* Color+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Random.swift"; sourceTree = "<group>"; };
 		DAA072D42C40AC52006DDFD2 /* HistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListView.swift; sourceTree = "<group>"; };
+		F0ABCD001234567800ABCDEF /* CollapsibleHistoryGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleHistoryGroup.swift; sourceTree = "<group>"; };
 		DAA072D62C41C574006DDFD2 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		DAA072D82C41C5AD006DDFD2 /* Footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
 		DAA072DA2C41C5DD006DDFD2 /* FooterItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterItem.swift; sourceTree = "<group>"; };
@@ -679,6 +681,7 @@
 				2F0EC7782E7727E3003E2EA9 /* HeightReaderModifier.swift */,
 				DA1969112C3F0DD200258481 /* HistoryItemView.swift */,
 				DAA072D42C40AC52006DDFD2 /* HistoryListView.swift */,
+				F0ABCD001234567800ABCDEF /* CollapsibleHistoryGroup.swift */,
 				2F0EC7882E7743D9003E2EA9 /* HoverSelectionModifier.swift */,
 				DA19690D2C3EEFA900258481 /* KeyboardShortcutView.swift */,
 				DA19691E2C3F5F0600258481 /* KeyHandlingView.swift */,
@@ -1075,6 +1078,7 @@
 				DA1969142C3F11D600258481 /* PreviewItemView.swift in Sources */,
 				2FF2E9502E7808470093D72C /* AppImageView.swift in Sources */,
 				DAA072D52C40AC52006DDFD2 /* HistoryListView.swift in Sources */,
+				F0ABCD011234567800ABCDEF /* CollapsibleHistoryGroup.swift in Sources */,
 				2F578C422EFFE8920088B759 /* SlideoutContentView.swift in Sources */,
 				2F578C432EFFE8920088B759 /* SlideoutView.swift in Sources */,
 				DAB082962A2B7B850053E463 /* AppStoreReview.swift in Sources */,

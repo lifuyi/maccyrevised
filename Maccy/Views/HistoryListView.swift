@@ -13,6 +13,22 @@ struct HistoryListView: View {
   @Default(.previewDelay) private var previewDelay
   @Default(.showFooter) private var showFooter
 
+  @State private var expandedGroups: Set<Int> = []
+
+  private let visibleItemCount = 10
+  private let groupSize = 10
+
+  private var visibleItems: [HistoryItemDecorator] {
+    Array(unpinnedItems.prefix(visibleItemCount))
+  }
+
+  private var groupedItems: [[HistoryItemDecorator]] {
+    let remaining = Array(unpinnedItems.dropFirst(visibleItemCount))
+    return stride(from: 0, to: remaining.count, by: groupSize).map {
+      Array(remaining[$0..<min($0 + groupSize, remaining.count)])
+    }
+  }
+
   private var pinnedItems: [HistoryItemDecorator] {
     appState.history.pinnedItems.filter(\.isVisible)
   }
@@ -96,8 +112,36 @@ struct HistoryListView: View {
 
     ScrollView {
       ScrollViewReader { proxy in
-        MultipleSelectionListView(items: unpinnedItems) { previous, item, next, index in
-          HistoryItemView(item: item, previous: previous, next: next, index: index)
+        VStack(spacing: 0) {
+          // First 10 visible items
+          MultipleSelectionListView(items: visibleItems) { previous, item, next, index in
+            HistoryItemView(item: item, previous: previous, next: next, index: index)
+          }
+
+          // Collapsible groups for items after the first 10
+          if !groupedItems.isEmpty {
+            if !visibleItems.isEmpty {
+              Divider()
+                .padding(.horizontal, Popup.horizontalSeparatorPadding)
+                .padding(.vertical, Popup.verticalSeparatorPadding)
+            }
+
+            ForEach(Array(groupedItems.enumerated()), id: \.offset) { index, items in
+              CollapsibleHistoryGroup(
+                groupIndex: index,
+                items: items,
+                expandedGroups: $expandedGroups
+              )
+              .padding(.horizontal, 4)
+              .padding(.vertical, 4)
+
+              if index < groupedItems.count - 1 {
+                Divider()
+                  .padding(.horizontal, Popup.horizontalSeparatorPadding)
+                  .padding(.vertical, 4)
+              }
+            }
+          }
         }
         .padding(.top, scrollTopPadding)
         .padding(.bottom, scrollBottomPadding)
