@@ -13,20 +13,34 @@ struct HistoryListView: View {
   @Default(.previewDelay) private var previewDelay
   @Default(.showFooter) private var showFooter
 
-  @State private var expandedGroups: Set<Int> = []
+  @State private var expandedGroups: Set<String> = []
 
   private let visibleItemCount = 10
   private let groupSize = 10
 
   private var visibleItems: [HistoryItemDecorator] {
-    Array(unpinnedItems.prefix(visibleItemCount))
+    let items = Array(unpinnedItems.prefix(visibleItemCount))
+    for (index, item) in items.enumerated() {
+      item.visibleIndex = index
+    }
+    return items
   }
 
   private var groupedItems: [[HistoryItemDecorator]] {
     let remaining = Array(unpinnedItems.dropFirst(visibleItemCount))
-    return stride(from: 0, to: remaining.count, by: groupSize).map {
+    let groups = stride(from: 0, to: remaining.count, by: groupSize).map {
       Array(remaining[$0..<min($0 + groupSize, remaining.count)])
     }
+    for (groupOffset, group) in groups.enumerated() {
+      for (itemIndex, item) in group.enumerated() {
+        item.visibleIndex = visibleItemCount + groupOffset * groupSize + itemIndex
+      }
+    }
+    return groups
+  }
+  
+  private func groupIdentifier(for items: [HistoryItemDecorator]) -> String {
+    items.first?.id.uuidString ?? "empty"
   }
 
   private var pinnedItems: [HistoryItemDecorator] {
@@ -115,7 +129,7 @@ struct HistoryListView: View {
         VStack(spacing: 0) {
           // First 10 visible items
           MultipleSelectionListView(items: visibleItems) { previous, item, next, index in
-            HistoryItemView(item: item, previous: previous, next: next, index: index)
+            HistoryItemView(item: item, previous: previous, next: next, index: item.visibleIndex)
           }
 
           // Collapsible groups for items after the first 10
@@ -126,9 +140,10 @@ struct HistoryListView: View {
                 .padding(.vertical, Popup.verticalSeparatorPadding)
             }
 
-            ForEach(Array(groupedItems.enumerated()), id: \.offset) { index, items in
+            ForEach(Array(groupedItems.enumerated()), id: \.element.first?.id) { index, items in
+              let groupId = groupIdentifier(for: items)
               CollapsibleHistoryGroup(
-                groupIndex: index,
+                groupId: groupId,
                 items: items,
                 expandedGroups: $expandedGroups
               )
@@ -169,10 +184,6 @@ struct HistoryListView: View {
             appState.navigator.isKeyboardNavigating = true
             appState.preview.cancelAutoOpen()
           }
-        }
-        .onChange(of: unpinnedItems.count) { _, _ in
-          // Clear expanded groups when items are deleted to prevent index out of bounds
-          expandedGroups.removeAll()
         }
         // Calculate the total height inside a scroll view.
         .background {

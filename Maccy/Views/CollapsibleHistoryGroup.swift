@@ -1,17 +1,17 @@
 import SwiftUI
 
 struct CollapsibleHistoryGroup: View {
-  let groupIndex: Int
+  let groupId: String
   let items: [HistoryItemDecorator]
-  @Binding var expandedGroups: Set<Int>
+  @Binding var expandedGroups: Set<String>
 
   private var isExpanded: Bool {
-    expandedGroups.contains(groupIndex)
+    expandedGroups.contains(groupId)
   }
 
   private var groupTitle: String {
-    let start = groupIndex * 10 + 11
-    let end = groupIndex * 10 + 10 + items.count
+    let start = items.first?.visibleIndex ?? 0
+    let end = start + items.count - 1
     return "\(start)-\(end)"
   }
 
@@ -20,9 +20,9 @@ struct CollapsibleHistoryGroup: View {
       Button(action: {
         withAnimation(.easeInOut(duration: 0.15)) {
           if isExpanded {
-            expandedGroups.remove(groupIndex)
+            expandedGroups.remove(groupId)
           } else {
-            expandedGroups.insert(groupIndex)
+            expandedGroups.insert(groupId)
           }
         }
       }) {
@@ -59,7 +59,7 @@ struct CollapsibleHistoryGroup: View {
               item: item,
               previous: nil,
               next: index < items.count - 1 ? items[index + 1] : nil,
-              index: groupIndex * 10 + 10 + index
+              index: item.visibleIndex
             )
           }
         }
