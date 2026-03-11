@@ -170,6 +170,10 @@ struct HistoryListView: View {
             appState.preview.cancelAutoOpen()
           }
         }
+        .onChange(of: unpinnedItems.count) { _, _ in
+          // Clear expanded groups when items are deleted to prevent index out of bounds
+          expandedGroups.removeAll()
+        }
         // Calculate the total height inside a scroll view.
         .background {
           GeometryReader { geo in
